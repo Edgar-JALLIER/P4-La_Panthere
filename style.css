@@ -106,7 +106,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-modif.webp");
     background-size: 280px 280px;
 }
 
@@ -833,11 +833,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-compressée.jpg");
+    background-image: url("img/agence-la-panthere-compressée.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-compressée.jpg");
+    background-image: url("img/image-de-presentation-compressée.webp");
 }
 
 @media (max-width: 1024px) {
