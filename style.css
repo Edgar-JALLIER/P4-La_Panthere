@@ -29,6 +29,11 @@ a:hover {
     font-style: italic;
 }
 
+#les-contacts {
+    font-size: 18px;
+    text-align: center;
+}
+
 #under-blockquote {
     font-size: 18px;
 }
@@ -672,7 +677,9 @@ a {
 .container {
     max-width: 1000px;
 }
-
+.container img {
+    max-width: 270px;
+}
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -755,7 +762,8 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -919,6 +927,7 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+        font-size: 21px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1041,6 +1050,12 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .social {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
 }
 
 @media (max-width: 400px) {
